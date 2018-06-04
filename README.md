@@ -1,6 +1,7 @@
 ## Mixpanel does not send requests
 
 #### Description :octocat:
+
 Mixpanel requests fail with `Mixpanel error: Bad HTTP status: 0`
 
 #### Reproduction guide :beetle:
@@ -17,9 +18,11 @@ Change the `id` in `./src/config.js`
 Look the the browsers network panel
 
 *Observed behaviour:* :broken_heart:
+
 On our production site there are no mixpanel events being sent to the server.
 
 *Expected behaviour:* :heart:
+
 Mixpanel events are sent to the server and appear on the admin page
 
 #### System Info :computer:
