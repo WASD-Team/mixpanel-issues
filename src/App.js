@@ -3,7 +3,7 @@ import mixpanel from 'mixpanel-browser';
 
 import './App.css';
 import logo from './logo.svg';
-import config from '../config';
+import config from './config';
 
 function debug(...args) {
     console.info('DEBUG:', ...args);

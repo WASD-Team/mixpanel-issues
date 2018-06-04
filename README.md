@@ -1,7 +1,7 @@
 ## Mixpanel does not send requests
 
 #### Steps to reproduce
-Change the `id` in `config.js`
+Change the `id` in `./src/config.js`
 
 `yarn`
 
