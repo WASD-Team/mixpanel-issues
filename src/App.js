@@ -9,9 +9,10 @@ function debug(...args) {
     console.info('DEBUG:', ...args);
 }
 
+console.log(config);
 class App extends Component {
     render() {
-        debug(mixpanel.init(config.mixpanel.id, { debug: true, api_host: 'https://api.mixpanel.com' }));
+        debug(mixpanel.init(config.mixpanel.id, config.mixpanel.options));
         debug(mixpanel.track('An event'));
 
         return (
