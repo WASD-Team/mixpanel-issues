@@ -4,6 +4,7 @@
 Change the `id` in `config.js`
 
 yarn
+
 yarn start
 
 Look the the browsers network panel
