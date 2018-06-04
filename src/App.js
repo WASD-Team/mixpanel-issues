@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
 import mixpanel from 'mixpanel-browser';
+
+import './App.css';
+import logo from './logo.svg';
+import config from '../config';
 
 function debug(...args) {
     console.info('DEBUG:', ...args);
@@ -10,7 +11,7 @@ function debug(...args) {
 
 class App extends Component {
     render() {
-        debug(mixpanel.init('YOUR_TRACKING_ID', { debug: true, api_host: 'https://api.mixpanel.com' }));
+        debug(mixpanel.init(config.mixpanel.id, { debug: true, api_host: 'https://api.mixpanel.com' }));
         debug(mixpanel.track('An event'));
 
         return (
