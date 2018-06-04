@@ -5,6 +5,7 @@ Mixpanel requests fail with `Mixpanel error: Bad HTTP status: 0`
 
 #### Reproduction guide :beetle:
 `git clone git@github.com:WASD-Team/mixpanel-issues.git`
+
 `cd mixpanel-issues`
 
 Change the `id` in `./src/config.js`
