@@ -3,8 +3,8 @@
 #### Steps to reproduce
 Change the `id` in `config.js`
 
-yarn
+`yarn`
 
-yarn start
+`yarn start`
 
 Look the the browsers network panel
